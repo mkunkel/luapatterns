@@ -64,6 +64,10 @@ input, textarea {
   color: #000000;
 }
 
+#example {
+  color: #000000;
+}
+
 .highlight {
   background-color: rgb(240, 255, 149);
 }
