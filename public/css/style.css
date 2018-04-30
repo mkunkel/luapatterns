@@ -1,0 +1,96 @@
+body {
+  background-color: #606060;
+}
+
+#form_container, #legend_container {
+  border: 5px solid white;
+  padding: 10px;
+  background-color: #303030;
+  color: #AAAAAA;
+  width: 75%;
+  margin: auto;
+}
+
+#legend_container {
+  margin-top: 20px;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  display: block;
+  border: 5px solid white;
+  -webkit-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+  -moz-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+  box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+  padding: 15px;
+  background: rgba(255,255,255,0.5);
+  resize: none;
+}
+
+#pattern {
+  width: 100%;
+}
+
+#string {
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+
+#string_label {
+  margin-top: 10px;
+  display: block;
+}
+
+#results_container {
+  border: 5px solid white;
+  float: right;
+  position: relative;
+  left: 10px;
+  margin-right: 10px;
+  width: 48%;
+  height: 290px;
+  background-color: #88CC88;
+}
+
+#results {
+  margin: 10px;
+  color: #000000;
+}
+
+.highlight {
+  background-color: rgb(240, 255, 149);
+}
+
+dl {
+  columns: 2;
+}
+
+dt {
+  font-weight: bold;
+  float: left;
+  text-align: right;
+  width: 100px;
+  clear: left;
+}
+
+dd {
+  float: left;
+}
+
+dl:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear {
+  float: none;
+  clear: both;
+}
